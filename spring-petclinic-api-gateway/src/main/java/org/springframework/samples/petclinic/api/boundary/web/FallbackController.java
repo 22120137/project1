@@ -14,3 +14,4 @@ public class FallbackController {
                 .body("Chat is currently unavailable. Please try again later.");
     }
 }
+
