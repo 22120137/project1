@@ -28,7 +28,7 @@ pipeline {
             spring-petclinic-vets-service
             spring-petclinic-visits-service
         """
-        MAVEN_OPTS = '-Xmx512m'
+        MAVEN_OPTS = '-Xmx64m'
     }
 
     stages {
