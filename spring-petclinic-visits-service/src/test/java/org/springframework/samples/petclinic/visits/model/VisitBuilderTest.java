@@ -22,6 +22,7 @@ class VisitBuilderTest {
             .build();
 
         // Kiểm tra các giá trị đã được set đúng
+        
         assertThat(visit.getId()).isEqualTo(id);
         assertThat(visit.getPetId()).isEqualTo(petId);
         assertThat(visit.getDescription()).isEqualTo(description);
